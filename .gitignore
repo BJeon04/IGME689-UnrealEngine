@@ -72,3 +72,13 @@ Plugins/**/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+
+# Ignore plugin caches, intermediate builds, and binaries
+Plugins/**/Binaries/*
+Plugins/**/Intermediate/*
+Plugins/**/DerivedDataCache/*
+
+# Keep the plugin source, content, and config
+!Plugins/**/Source/
+!Plugins/**/Content/
+!Plugins/**/Config/
